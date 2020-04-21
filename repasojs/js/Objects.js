@@ -45,9 +45,19 @@ console.log(tarea1.mostrarInformacionTarea())
 
 const aprendiendoJS = {
 
-    version: 'ES6+',
+    version: {
+        nueva: 'ES6+',
+        anterior: 'E5'
+    },
     frameworks: ['React','Vuejs','AngularJs']
 
 }
 
-console.log(aprendiendoJS);
+//Destructuring es extraer informacion
+/*console.log(aprendiendoJS);
+console.log(aprendiendoJS.frameworks);*/
+
+//Destructuring  nuevo
+
+let {nueva} = aprendiendoJS.version;
+console.log(nueva);
