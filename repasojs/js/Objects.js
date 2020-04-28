@@ -61,3 +61,41 @@ console.log(aprendiendoJS.frameworks);*/
 
 let {nueva} = aprendiendoJS.version;
 console.log(nueva);
+
+
+//Object literal enhancement
+
+
+const band = 'Metallica';
+const genero ='Heavy Metal'
+const canciones  = ['Master of Puppets','Seek & Desroy', 'enter  sandman']
+
+//forma anterior
+
+/*const metallica = {
+
+    banda:band,
+    genero:genero,
+    canciones:canciones
+
+}*/
+
+const metallica =  {band,genero,canciones};
+console.log(metallica);
+
+
+//Metodos e un objeto
+
+
+const personas = {
+
+    nombre: 'Gio',
+    trabajo: 'Arquitecto desarrollador',
+    edad:26,
+    musickRock:true,
+    mostrInformacion() {
+        console.log(`${this.nombre} es ${this.trabajo}   su edad es ${this.edad}`);
+   }
+}
+
+personas.mostrInformacion();
