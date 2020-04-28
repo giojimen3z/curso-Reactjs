@@ -13,6 +13,8 @@ const persona = {
 
 
 
+
+
 console.log(persona.nombre);
 console.log(persona.profesion);
 console.log(persona.edad);
