@@ -24,3 +24,7 @@ carrito2.map(producto => {
     return 'El producto es' + producto;
 
 })
+
+const persona = {
+
+}
